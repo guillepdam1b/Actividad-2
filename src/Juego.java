@@ -82,6 +82,8 @@ class Jugador{
     /**
      * Escoge piedra, papel o tijera al azar
      */
+    int éxitos;      // número de partidas ganadas
+    int winTotal;
     public String opcion_al_azar()
     {
         String opcion="";
@@ -107,6 +109,5 @@ class Jugador{
         return(éxitos);
     }
     
-    int éxitos;      // número de partidas ganadas
-    int winTotal;
+
 }
