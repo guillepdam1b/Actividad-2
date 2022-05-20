@@ -106,7 +106,7 @@ class Jugador{
     }
     public int getÉxitos() 
     {
-        return(éxitos);
+        return éxitos;
     }
     
 
